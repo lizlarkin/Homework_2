@@ -1,3 +1,7 @@
+* {
+    position: relative;
+}
+
 nav li {
     margin-left: 5px;
 }
@@ -9,15 +13,14 @@ nav li:hover {
 /* Add background image to main container */
 main {
     background-image: url("https://img2.pngio.com/dog-paw-cat-clip-art-cat-paw-print-background-transparent-paw-print-background-png-920_967.png");
-    border: 1px solid blue;
     margin-top: -20px;
-    padding-top: 75px;
+    padding: 75px 0px 75px 0px;
 }
 
 .container {
     background-color: white;
-    border: 1px solid red;
-    padding-top: 45px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 h1 {
@@ -38,5 +41,16 @@ button {
 button:hover {
     background-color:#34495e;
 }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: #7f8c8d;
+}
+
 
 
