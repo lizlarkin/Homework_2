@@ -1,0 +1,16 @@
+main {
+    background-image: url("https://img2.pngio.com/dog-paw-cat-clip-art-cat-paw-print-background-transparent-paw-print-background-png-920_967.png");
+}
+
+nav li {
+    margin-left: 5px;
+}
+
+nav li:hover {
+    font-weight: bold;
+}
+
+h1 {
+    color:#16a085;
+    border-bottom: 3px solid #ecf0f1;
+}
