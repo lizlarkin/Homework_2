@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets/styles.css">
     <title>Liz Larkin Contact</title>
 </head>
 <body>
 <!-- Navigation -->
-<div class="row">
-    <div class ="col-md-12">
-        <div class="alert alert-primary" role="alert">
-            <ul class="nav justify-content-end">
+<nav>
+    <div class="row">
+      <div class ="col-md-12">
+          <div class="alert alert-secondary" role="alert">
+              <ul class="nav justify-content-end">
                 <li class="nav-item">
                   <a class="nav-link active" href="contact.html">Contact</a>
                 </li>
@@ -22,28 +24,113 @@
                   <a class="nav-link" href="index.html">About</a>
                 </li>
               </ul>
-        </div>
-    </div>
-</div>    
+          </div>
+      </div>
+    </div>  
+  </nav>     
     
 <!-- Container -->
-<div class="container">
-    <div class="alert alert-secondary" role="alert">
-        <div class="row">
-            <div class="col-sm">
-                <div class="alert alert-primary" role="alert">
-                    One of three columns
-                </div>
-            </div>
-            <div class="col-sm">
-                One of three columns
-            </div>
-            <div class="col-sm">
-                One of three columns
+<main>
+    <div class = "container">
+        <!-- Container Header -->
+        <div class = "row">
+            <div class="col-sm-8">
+                <h1>Contact</h1>
             </div>
         </div>
+        
+        <!-- Start of Form -->
+            <!-- Name Input -->
+        <form>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3>Name</h3>
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" placeholder="Name">
+                </div>
+            </div> 
+                <!-- Email Input -->
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3>Email</h3>
+                </div>
+            </div>   
+            <div class="row">
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" placeholder="Email">
+                </div>
+            </div>    
+                <!-- Message Input -->
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h3>Message</h3>
+                    </div>
+                </div> 
+            <div class="row">
+                <div class="col-sm-6">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                </div>
+            </div> 
+            <div class = "row">
+                <div class="col-sm-6">
+                    <button type="button">Submit</button>
+                </div>
+            </div>   
+          </form>
     </div>
-</div>
+    <!-- <div class = "container">
+        <div class = "row">
+            <div class="col-sm-8">
+                <h1>Contact</h1>
+            </div>
+        </div>
+        <div class = "row">
+            <div class="col-sm-6">
+                <h3>Name</h2>
+            </div>
+        </div>
+        <div class = "row">
+            <div class="col-sm-6">
+                <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+            </div>
+        </div>
+        <div class = "row">
+            <div class="col-sm-6">
+                <h2>Email</h2>
+            </div>
+        </div>
+        <div class = "row">
+            <div class="col-sm-6">
+                <form>
+                    <div class="form-group">
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                    </div>
+                </form>    
+            </div>
+        </div>
+        <div class = "row">
+            <div class="col-sm-6">
+                <h2>Message</h2>
+            </div>
+        </div>
+        <div class = "row">
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                  </div>
+            </div>
+        </div>
+        <div class = "row">
+            <div class="col-sm-6">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </div> -->
+
+</main>
 
 </body>
 
