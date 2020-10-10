@@ -1,3 +1,4 @@
+/* add style to left brand portion of nav bar */
 .navbar-brand {
     background-color: #16a085;
     color: white !important;
@@ -6,6 +7,7 @@
     padding: 10px 10px 10px 10px;
 }
 
+/* move nav bar links to right */
 .navbar-nav {
     margin-left: auto !important;
 }
@@ -16,6 +18,7 @@ main {
     padding: 75px 0px 125px 0px;
 }
 
+/* make container section stand out from background section */
 .container {
     background-color: white;
     padding-top: 50px;
@@ -28,6 +31,7 @@ h1 {
     margin-bottom: 15px;
 }
 
+/* style submit button */
 button {
     background-color:#16a085; 
     color: white;
@@ -38,10 +42,12 @@ button {
     padding: 10px 20px 10px 20px;
 }
 
+/* change color of button when mouse is over */
 button:hover {
     background-color:#34495e;
 }
 
+/* allow text to flow around picture in index */
 #indexpic {
     float: left;
     margin-right: 20px;
