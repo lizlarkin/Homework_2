@@ -2,30 +2,16 @@
     position: relative;
 }
 
-/* html {
-    overflow-y: scroll;
-} */
-
-nav {
-    height: 75px;
-}
-
-.navleftitem {
-    padding: 10px 10px 10px 10px;
-    font-weight: bold;
-    color:white;
+.navbar-brand {
     background-color: #16a085;
-    font-size: 20px;
-}
-
-nav li {
-    margin-left: 10px;
-    width: 100px;
+    color: white !important;
     font-weight: bold;
+    border-radius: 2px;
+    padding: 10px 10px 10px 10px;
 }
 
-nav a:hover {
-    color:#34495e;
+.navbar-nav {
+    margin-left: auto !important;
 }
 
 /* Add background image to main container */
