@@ -1,7 +1,3 @@
-* {
-    position: relative;
-}
-
 .navbar-brand {
     background-color: #16a085;
     color: white !important;
@@ -29,6 +25,7 @@ main {
 h1 {
     color:#16a085;
     border-bottom: 3px solid #ecf0f1;
+    margin-bottom: 15px;
 }
 
 button {
@@ -45,23 +42,16 @@ button:hover {
     background-color:#34495e;
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
-    height: 50px;
-    width: 100%;
-    color: white;
-    text-align: center;
-    background-color: #7f8c8d;
-}
-
-#copyright {
-    margin-top: 12px;
-}
-
 #indexpic {
     float: left;
     margin-right: 20px;
+}
+
+#footer {
+    color: white !important;
+    /* force copyright to middle of footer */
+    margin-right: auto !important;
+    margin-left: auto !important;
 }
 
 @media screen and (min-width: 768px) {
