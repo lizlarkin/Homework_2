@@ -2,9 +2,9 @@
     position: relative;
 }
 
-html {
+/* html {
     overflow-y: scroll;
-}
+} */
 
 nav {
     height: 75px;
@@ -78,6 +78,8 @@ footer {
     margin-right: 20px;
 }
 
-
-
-
+@media screen and (min-width: 768px) {
+     {
+      width: 100%;
+    }
+  }  
