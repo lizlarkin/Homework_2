@@ -1,0 +1,11 @@
+The responsive layout project was intended to demonstrate how layouts can automatically changed based on the screen size/viewer. 
+Bootstrap does this so well that it's actually hard to understand what is really happening behind the scenes. 
+
+This project took a lot of trial and error to get a feel for how Bootstrap can be adapted, but also how it can't. I initially 
+tried to combine Bootstrap elements and found that I was breaking its responsive abilities. It was also challenging to talk to
+Bootstrap via my own CSS, because it's difficult to identify the HTML tags to use for communication. Often times I was trying
+to access the element using the wrong name, or I had correctly accessed the element but Bootstrap was overpowering my CSS. 
+Ultimately I tried to avoid using !important too often, but it was a great tool for testing whether or not I was really communicating. 
+
+For the life of me I still cannot figure out why I'm added extra white space beyond the size of the rows I've established. Hours and hours
+of playing around with the code has me completely stumped. 
