@@ -15,6 +15,7 @@ nav {
     font-weight: bold;
     color:white;
     background-color: #16a085;
+    font-size: 20px;
 }
 
 nav li {
@@ -30,7 +31,7 @@ nav a:hover {
 /* Add background image to main container */
 main {
     background-image: url("https://img2.pngio.com/dog-paw-cat-clip-art-cat-paw-print-background-transparent-paw-print-background-png-920_967.png");
-        padding: 75px 0px 75px 0px;
+    padding: 75px 0px 125px 0px;
 }
 
 .container {
@@ -68,10 +69,15 @@ footer {
     background-color: #7f8c8d;
 }
 
+#copyright {
+    margin-top: 12px;
+}
+
 #indexpic {
     float: left;
-    margin-right: 25px;
+    margin-right: 20px;
 }
+
 
 
 
