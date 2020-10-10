@@ -2,8 +2,18 @@
     position: relative;
 }
 
+html {
+    overflow-y: scroll;
+}
+
+nav {
+    height: 75px;
+}
+
 nav li {
-    margin-left: 5px;
+    margin-left: 10px;
+    width: 100px;
+    padding-top: 15px;
 }
 
 nav li:hover {
@@ -13,7 +23,6 @@ nav li:hover {
 /* Add background image to main container */
 main {
     background-image: url("https://img2.pngio.com/dog-paw-cat-clip-art-cat-paw-print-background-transparent-paw-print-background-png-920_967.png");
-    margin-top: -20px;
     padding: 75px 0px 75px 0px;
 }
 
@@ -50,6 +59,11 @@ footer {
     color: white;
     text-align: center;
     background-color: #7f8c8d;
+}
+
+#indexpic {
+    float: left;
+    margin-right: 25px;
 }
 
 
