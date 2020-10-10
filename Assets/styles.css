@@ -30,8 +30,7 @@ nav a:hover {
 /* Add background image to main container */
 main {
     background-image: url("https://img2.pngio.com/dog-paw-cat-clip-art-cat-paw-print-background-transparent-paw-print-background-png-920_967.png");
-    padding: 75px 0px 75px 0px;
-    /* filter: brightness(50%) */
+        padding: 75px 0px 75px 0px;
 }
 
 .container {
