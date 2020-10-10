@@ -53,9 +53,3 @@ button:hover {
     margin-right: auto !important;
     margin-left: auto !important;
 }
-
-@media screen and (min-width: 768px) {
-     {
-      width: 100%;
-    }
-  }  
